@@ -1,0 +1,37 @@
+:root{
+    --negro: #141414;
+    --blanco: #ffffff;
+}
+
+body, footer{
+    font-family: 'Commissioner', sans-serif;
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+
+html{
+    padding: 20px;
+}
+
+.logo{
+    width: 50px;
+    padding: 10px 0;
+}
+
+.fondonegro{
+    background-color: var(--negro);
+}
+
+.nav-link {
+    color: var(--blanco);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.article {
+    color: var(--blanco);
+}
+
+.img-fluid{
+    padding: 0 0 12px 0 !important;
+}

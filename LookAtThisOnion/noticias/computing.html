@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner&family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- CSS Propio -->
+    <link rel="stylesheet" href="../css/style.css">
+      
+    <title>LookAtThisOnion</title>
+  </head>
+  <body>
+      
+      
+<!--  Menu    -->
+      <nav class="navbar navbar-expand-lg navbar-dark fondonegro">
+        <div class="container">
+  <a class="navbar-brand" href="../index.html">
+    <img class="logo" src="../img/svg/logo.svg">
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../categorias/analisis.html">Analisis</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="../categorias/ciencia.html">Ciencia</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../categorias/moviles.html">Moviles</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../categorias/entretenimiento.html">Entretenimiento</a>  
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="../categorias/pro.html">Pro</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../categorias/seleccionx.html">Seleccion X</a>
+      </li>
+    </ul>
+  </div>
+</div> 
+<!--Fin Container-->
+      </nav>
+ <!--Contenido del Blog-->
+ <main role="main" class="container">
+  <div class="row">
+     <div class="col-md-8 blog-main">
+<h3 class="pb-4 mb-4 font-italic border-bottom">
+  Edge Computing y Fog Computing: parecidos y diferencias para tratar los datos cerca de donde se producen
+</h3>
+<img src="../img/computing/mecanico.jpg" alt="Mecanico" class="img-fluid">
+<div class="blog-post">
+<p>Los datos de Statista que a fines de 2018 había 22.000 millones de dispositivos conectados en uso en todo el mundo y que para 2030 habrá cerca de 50.000 millones: ordenadores, teléfonos, coches, relojes, neveras, aspiradoras…</p>
+<p>Todos estos dispositivos generan y comparten muchos datos. Pero, ¿dónde se gestiona toda esta información? ¿Dónde se almacenan, tratan y analizan todos los datos? Se trata de un mercado en claro crecimiento, como lo demuestra la reciente alianza entre Microsoft y ARM en la materia. De hecho, los pronósticos de la consultora Market Reports hablan de que el mercado mundial de análisis de IoT pase de los 7.200 millones de dólares en 2017 a los 27.800 millones en 2022. Los factores clave que impulsan el mercado de análisis de IoT incluyen un enorme aumento en la generación de datos de IoT debido al creciente despliegue de dispositivos de IoT y la necesidad de análisis y automatización avanzados para que las empresas sigan siendo competitivas.</p>
+<p>Para poder analizar, pues, toda esa gran cantidad de datos hay dos propuestas: el Fog Computing y el Edge Computing. Ambos modelos comparten muchas similitudes pero también tienen algunas importantes diferencias.</p>
+<hr>
+<h2>No te vayas lejos</h2>
+<p>A grandes rasgos, podemos decir que ambas opciones permiten enviar datos a plataformas analíticas que están ubicadas en la misma red o muy cerca de donde se originaron los datos.</p>
+<p>Una de las industrias en las que más aplicaciones se están desarrollando del IoT es en la fabricación. Imaginemos un posible escenario, en el que una fábrica tiene diversos sensores para saber qué tipo de materiales están entrando en sus instalaciones, así como otros en las líneas de producción. Con estos datos, se puede decidir qué tipo de producto fabricar y si, en algún momento, hay que cambiar alguna decisión porque los embalajes no estén preparados o porque los lineales destinados a esta producción estén llegando ya al límite de su capacidad.</p>
+<p>Hay que tener en cuenta que hablamos de instalaciones donde se produce una gran cantidad de datos y de forma constante. Trasladar toda esta gran cantidad de información a la nube podría disparar los costes. Mientras, si el procesamiento se realiza donde se producen los datos y solo se envía la información relevante a la nube los costes pueden mantenerse más controlados.</p>
+<img src="../img/computing/ensambladora.jpg" alt="ensambladora" class="img-fluid">
+<p>El tratamiento de todos estos datos que proceden de todos estos sensores se realizará lo más próximo posible al lugar donde se están produciendo en lugar de tener que viajar hasta la nube y volver. Y, para ello, se tienen dos opciones: el Fog Computing y el Edge Computing.</p>
+<p>Ambas propuestas quieren aprovechar las capacidades de computación dentro de una red local para llevar a cabo tareas de computación que normalmente se habrían llevado a cabo en la nube. ¿Las ventajas? Poder aprovechar de la potencia del cloud computing, pero eliminando algunos de sus inconvenientes. Al realizarse todo el tratamiento y análisis de los datos muy próximo a donde se producen hay menos latencia y menos consumo, puesto que el viaje que realiza esta información es más breve. Y, con ello, también se reduce el coste.</p>
+<p>Pensemos, por ejemplo, en una cámara de seguridad. Si en lugar de tener que enviar constantemente el vídeo a una plataforma en la nube solo envía aquellos fotogramas en los que se pueda detectar u observar un comportamiento sospechoso o anómalo, el ancho de banda y la capacidad de almacenamiento que necesitaremos será mucho menor.</p>
+<hr>
+<h2>El quid de la cuestión está en el dónde</h2>
+<p>La gran diferencia entre el Fog y el Edge Computing está en dónde se produce ese procesamiento de los datos.</p>
+<p>En términos generales, podemos decir que, en la propuesta del Edge Computing, la actividad se realiza en los propios dispositivos o en un dispositivo al que se conectan y que hace de puerta de enlace. Mientras, la computación en la niebla traslada las actividades a los procesadores que están conectados a la LAN o al propio hardware de la LAN para que puedan estar físicamente más lejos de los sensores.</p>
+<p>La computación en la niebla fue un término acuñado por Cisco en 2014. Podríamos definirlo como una arquitectura informática descentralizada donde los datos, las comunicaciones, el almacenamiento y las aplicaciones se distribuyen entre la fuente de datos y la nube. Es decir, es una arquitectura horizontal que comparte recursos y servicios almacenados en cualquier lugar de la nube con dispositivos de Internet de las cosas.</p>
+<img src="../img/computing/componente.jpg" alt="Componente Electronico" class="img-fluid">
+<p>Con el Edge Computing la arquitectura se acerca aún más al procesamiento de la fuente de datos sin tener que enviar los datos a una nube remota u otros sistemas centralizados para su procesamiento. Esto mejora la velocidad y el rendimiento del transporte de datos, así como los dispositivos y aplicaciones, al eliminar la distancia y el tiempo para enviar datos a fuentes centralizadas.</p>
+<hr>
+<h2>A favor y en contra de uno y otro</h2>
+<p>Cuando se opta por el Edge Computing, los datos viajan menos por la red, por lo que se puede aumentar la seguridad de los mismos y de su tratamiento. Además, al hacer este análisis prácticamente en el dispositivo que genera los datos, se gana en rapidez, lo que puede provocar un mejor rendimiento y una toma de decisiones más rápida.</p>
+<p>Mientras, en el modelo Fog se permite que, dentro de ese núcleo que va a realizar el tratamiento de los datos, puedan combinarse también otras fuentes de datos. Esto, además, hará que el punto de tratamiento sea más capaz, puesto que acepta muchos dispositivos. Sn embargo, esto también hará que sea necesaria más infraestructura para poder implementar un sistema Fog Computing y que los costes sean superiores.</p>
+<p>La otra cara de la moneda del Edge Computing estaría en encontrar el equilibrio entre mantener los datos en el borde y llevarlos a una nube central cuando sea necesario. Cabe señalar, además, que los conjuntos de datos que requieren algoritmos más sofisticados se manejan mejor en la nube, mientras que los procesos analíticos más simples se mantienen mejor en el borde.</p>
+<hr>
+<h2>Cuestión de segundos</h2>
+<p>Cuando se apuesta por el Fog Computing o el Edge Computing uno de los objetivos principales es reducir de forma drástica el tiempo que pasa entre que los datos viajan, se analizan y se devuelven, especialmente en comparación con la opción del Cloud Computing.</p>
+<p>No son concebidas como alternativas a la informática en la nube, sino más bien como un complemento, con la optimización del rendimiento como su principal ventaja.</p>
+<hr>
+</div>
+  </div>
+  
+
+<!--Fin Blog-->
+<!--Aside-->
+<aside class="col-md-2 blog-sidebar">
+  <div class="p-4">
+    <div class="card text-white bg-dark" style="width: 14rem;">
+      <img src="../img/mh/portada.jpg" class="card-img" alt="Monster Hunter">
+      <div class="card-body">
+        <h5 class="card-title">Primer trailer de 'Monster Hunter': Mila Jovovich protagoniza la adaptación del videojuego de Capcom, que adelanta fecha de estreno</h5>
+        <a href="../noticias/monsterhunter.html" class="btn btn-primary">Leer mas</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-4">
+    <div class="card text-white bg-dark" style="width: 14rem;">
+      <img src="../img/ameba/ameba.jpg" class="card-img" alt="Ameba">
+      <div class="card-body">
+        <h5 class="card-title">La misma ameba que irrumpió en Toledo en 2018, acaba de dejar sin agua a 27.000 personas en Texas: lo que sabemos de la "ameba come-cerebros"</h5>
+        <a href="../noticias/ameba.html" class="btn btn-primary">Leer mas</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-4">
+    <div class="card text-white bg-dark" style="width: 14rem;">
+      <img src="../img/xboxps5/xboxyps5.jpg" class="card-img" alt="UI">
+      <div class="card-body">
+        <h5 class="card-title">Xbox Series X y Playstation 5 muestran sus nuevas interfaces: así van a van a dar la cara las consolas de Sony y Microsoft</h5>
+        <a href="../noticias/ps5xbox.html" class="btn btn-primary">Leer mas</a>
+      </div>
+    </div>
+  </div>
+</aside>
+</div>
+</main>
+<!--Fin Aside-->
+
+      
+      
+      
+      
+      
+      
+      
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+
+<!-- Footer -->
+<footer class="blog-footer">
+  <address>
+    <p>Autor: Juan Ricardo Lara</p>
+    <p>Tel: <a href="tel:+18099042736">809-904-2736</a></p>
+    <p>Correo: <a href="mailto:juanricardolar@gmail.com">juanricardolar@gmail.com</a></p>
+  </address>
+  <p>Toda la información mostrada aqui es tomada de la pagina: <a href="https://www.xataka.com" target="_blank"> Xataka.com</a></p>
+</footer>
+</html>
